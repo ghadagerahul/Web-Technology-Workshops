@@ -1,0 +1,26 @@
+body
+{
+    background-image: url("./bagrounds/pexels-pexen-design-3294285.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container
+{
+    height: 527px;
+    width: 818px;
+    background-color: aqua;
+    margin-left: 25%;
+    margin-top: 7%;
+  
+    
+}
+.box
+{
+    height: 100%;
+    width: 49.75%;
+    background-color: chocolate; 
+    display: inline-block;
+
+}

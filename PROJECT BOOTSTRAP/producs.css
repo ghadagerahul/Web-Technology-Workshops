@@ -1,0 +1,62 @@
+body
+{
+
+}
+
+.navbar
+{
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px groove;
+}
+.productlist
+{
+    border: 2px solid black;
+    height: 241px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imgbox
+{
+    
+    border: 1px solid black;
+    width: 210px;
+    height: 210px;
+}
+.containt
+{
+  
+    border: 1px solid black;
+    width: 750px;
+    margin-left: 35px;
+    height: 216px;
+}
+.form
+{
+    border: 1px solid black;
+    width: 220px;
+    margin-left: 40px;
+    padding-top: 88px;
+}
+.button
+{
+    border-radius: 15px;
+    height: 29px;
+    width: 136px;
+    color: white;
+    background-color: orangered;
+    margin-left: 31px;
+}
+.qty
+{
+    height: 24px;
+    width: 80px;
+    color: indigo;
+    background-color: #a9dcdc;
+    border-radius: 6px;
+    margin-left: 6px;
+}

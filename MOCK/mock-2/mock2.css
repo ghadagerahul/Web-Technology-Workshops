@@ -1,0 +1,55 @@
+.container
+{
+    height: 500px;
+    width: 800px;
+    border: 2px black solid;
+    padding-top: 20px;
+    padding-left: 50px;
+    background-color: blanchedalmond;
+    
+    
+}
+
+.box
+{
+    height: 150px;
+    width: 150px;
+    border: 1px red dotted;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: greenyellow;
+    display: inline-block;
+    flex-direction: row;
+    margin-left: 30px;
+    padding-left: 5px;
+    
+}
+#head
+{
+    height: 120px;
+    width: 700px;
+    background-color: orangered;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+img{
+    hei: 35px;
+    width: 35px;
+    border: 1px black solid;
+}
+.box
+{
+    display: inline-block;
+}
+.foot
+{
+    hei: 100px;
+    width: 100px;
+}
+#icon1
+{
+    height: 60px;
+    width: 60px;
+}

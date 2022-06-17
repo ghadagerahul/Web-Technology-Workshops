@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> project17</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        #box1
+        {
+          height: 550px;
+          width: 700px;
+          background-image: url("./4.png");
+          padding-top: 10px;
+          border: 3px orangered dotted;
+        }
+        #box2
+        {
+          height: 450px;
+          width: 300px;
+          background: white;
+          padding-top: 25px;
+          border-radius: 2%;
+          border: 1.5px black solid;
+        }
+        #i1
+        {
+          border-style: solid;
+          border-width: 10px;
+          border-radius: 240%;
+         border-color: blue;
+         color: white;
+         background: blue;
+        }
+        #i2
+        {
+          border-style: solid;
+          border-width: 10px;
+          border-radius: 240%;
+         border-color: rgb(38, 144, 177);
+         color: white;
+         background: rgb(28, 120, 173);
+        }
+        #i3
+        {
+          border-style: solid;
+          border-width: 10px;
+          border-radius: 240%;
+         border-color: rgb(247, 2, 2);
+         color: white;
+         background: rgb(252, 4, 4);
+        }
+        #s1
+        {
+         border-style:initial;
+         border-bottom: outset;
+         border-bottom-width: 2px;
+        }
+        #s2
+        {
+          border-style:initial;
+         border-bottom: outset;
+         border-bottom-width: 3px;
+         border-bottom-style: ridge;
+        }
+        #login
+        {
+          height: 22px;
+          width: 180px;
+          background-image: url("./7-15.png");
+          color: white;
+          border-radius: 20px;
+          background-repeat: no-repeat;
+        }
+        #fp
+        {
+          border-style: initial;
+          font-size: 10px;
+          position: absolute;
+          margin-left: 40px;
+        }
+    </style>
+</head>
+<body> <center>
+    <div id="box1">
+        <div id="box2">
+           <h2> Login</h2>
+          <form action="">
+            <div id="center">
+              <label> Username</label> <br>
+              <input type="text" name="" id="s2" placeholder="Type your username"> <br><br>
+
+              <label> Passward </label> <br>
+              <input type="password" id="s1" placeholder="Type your passward"> <br><br>
+
+               <input type="submit" value="Forgot passward?" id="fp"> <br><br>
+
+               <input type="submit" value="LOGIN" id="login"> <br><br>
+              </div>
+
+               <label> or sign up using </label><br> <br>
+                     
+               <i class="fa fa-facebook" aria-hidden="true" id="i1"></i> &nbsp; &nbsp;
+               <i class="fa fa-twitter" aria-hidden="true" id="i2"></i>  &nbsp; &nbsp;
+               <i class="fa fa-google" aria-hidden="true" id="i3"></i> <br><br> <br><br>
+
+
+               <label> Have not account yet?</label><br><br>
+               <a href="" target="">SIGN UP </a>
+          </form>
+
+        </div>
+    </div>
+       </center>
+</body>
+</html>
